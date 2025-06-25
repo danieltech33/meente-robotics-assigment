@@ -4,9 +4,10 @@ on:
   push:
     branches:
       - main
+
 jobs:
   deploy-to-aws:
-    uses: danieltech33/github-actions-util/reuseble-deploy-scripts/reusable-aws-deploy.yml@main
+    uses: danieltech33/github-actions-util/.github/workflows/reusable-aws-deploy.yml@main
     with:
       ecr-repository: meente-robotics-assigment-ecr
       lambda-function-name: meente-robotics-assigment-lambda
