@@ -2,6 +2,7 @@
 
 A simple hello world code with semantic versioning.
 
+
 ## Hello World Python Script
 
 A simple Python script that prints "Hello, World!" to the console.
